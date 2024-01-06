@@ -794,7 +794,7 @@ class App:
                 for coin in self.coins:
                     coin.draw()
         else:
-            pyxel.cls(6)
+            pyxel.cls(16)
             pyxel.text(24,pyxel.height/2 - 10,"PRESS SPACE TO START",0)
 
 
