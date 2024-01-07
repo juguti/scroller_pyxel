@@ -656,7 +656,7 @@ class App:
 
     def start(self):
         # place correctement les éléments
-        map.niveau_change(0)
+        map.niveau_change(1)
         self.reload()
 
         self.player.star()
