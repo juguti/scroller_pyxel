@@ -625,7 +625,7 @@ class App:
     def __init__(self):
         """Initializes the variables"""
         pyxel.init(128, 128)  # Screen dimensions
-        pyxel.load("res.pyxres")  # Loads the ressource file
+        pyxel.load("resso.pyxres")  # Loads the ressource file
         map.set_carte(0)
         self.menu = True
         self.life = 0
